@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application about Calculation</title>
+    <link rel="stylesheet" href="task5.css">
+    <script src="task5.js"></script>
+</head>
+<body>
+   
+   <table align="center">
+    <caption >Application About Calculation</caption>
+    <tr><td>
+        <label>Enter item cost:</label>
+    </td>
+    <td>
+        <input type="number" id="cost">
+    </td>
+    <td>
+        <button id="btn1" onclick="add()">Add</button>
+    </td></tr>
+    <tr>
+        <td>
+        <div>
+            <ul id="show">
+
+            </ul>
+        </div>
+    </td>
+    </tr>
+    <tr>
+        <td>
+            <button id="total" onclick="total()">Total</button>
+        </td>
+        <td><button id="discount" onclick="discount()">Total with 5%</button></td>
+        <td><button id="gst" onclick="gstt()">Total with 18% GST</button></td>
+    </tr>
+    <tr>
+        <td>
+            <div id="val1" class="val"></div>
+        </td>
+        <td><div id="val2"class="val"></div></td>
+        <td><div id="val3"class="val"></div></td>
+    </tr>
+   </table> 
+</body>
+</html>

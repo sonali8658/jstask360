@@ -1,0 +1,14 @@
+table{
+    border:4px solid yellow;
+    background-color: azure;
+    padding: 10px;
+}
+#btn1{
+    background-color:blueviolet
+}
+#btn2{
+    background-color:aquamarine;
+}
+caption{
+    font-size: larger;
+}

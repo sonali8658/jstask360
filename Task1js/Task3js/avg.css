@@ -1,0 +1,11 @@
+table{
+    border:4px dotted rebeccapurple;
+    padding:10px;
+    background-color: rgb(94, 255, 0);
+}
+#btn1{
+    background-color:rgb(0, 213, 255) ;
+}
+#btn2{
+    background-color: chocolate;
+}

@@ -1,0 +1,12 @@
+
+table{
+    border:3px solid red;
+    padding: 10px;
+
+}
+#btn{
+    background-color: chartreuse;
+}
+#btn2{
+    background-color: yellow;
+}
